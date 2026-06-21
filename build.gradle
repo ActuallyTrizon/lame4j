@@ -6,9 +6,7 @@ plugins {
 }
 
 group = 'de.maxhenkel.lame4j'
-base {
-    archivesName = 'lame4j'
-}
+archivesBaseName = 'lame4j'
 version = library_version
 
 java {
